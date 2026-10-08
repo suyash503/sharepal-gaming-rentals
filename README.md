@@ -2,7 +2,7 @@
 
 A recreation of SharePal's [Bangalore gaming rentals page](https://sharepal.in/bangalore/gaming-gadgets-on-rent), built for the SharePal internship assignment. It copies the layout, sections, type scale, colours, spacing, images, buttons, interactions and animations, and the product grid is driven by the supplied `product-list.json`.
 
-**Live:** _added after deploy_ · **Stack:** Next.js 15 (App Router) · React 19 · TypeScript (strict) · Tailwind CSS 3 · Radix UI (Dialog, Accordion) · Sonner
+**Live:** https://sharepal-gaming-rentals-one.vercel.app · **Stack:** Next.js 15 (App Router) · React 19 · TypeScript (strict) · Tailwind CSS 3 · Radix UI (Dialog, Accordion) · Sonner
 
 ![Desktop, 1440px](docs/desktop.jpg)
 
@@ -49,7 +49,7 @@ I kept SharePal's design language and changed things that would trip a first-tim
 9. **Accessibility.** Real buttons and headings, labelled icon buttons, `aria-pressed` on toggles, a labelled progress bar, focus rings for keyboard users, and reduced-motion support (the marquee pauses).
 10. **Small fixes.** The waitlist counter was white on light grey and is now readable. The live "What is the minimum rental period?" answer had copy pasted from another page ("participation amount of ₹1 lakh"); it now explains the 1-day minimum that follows from SharePal's own billing rule.
 
-![Cart pill and stepper](docs/cart.jpg)
+![Dates set: totals, quantity stepper, wishlist and the Go to Cart pill](docs/cart.jpg)
 
 ## Run it
 
